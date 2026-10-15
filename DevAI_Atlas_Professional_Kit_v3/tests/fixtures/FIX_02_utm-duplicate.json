@@ -1,0 +1,24 @@
+{
+  "id": "FIX-02",
+  "fixture": "SYNTHETIC_TEST_ONLY_NOT_REAL_NEWS",
+  "description": "same canonical URL with utm tracking",
+  "input": {
+    "source_id": "fake-test-provider",
+    "source_url": "https://example.org/test/utm-duplicate",
+    "source_published_at": "2026-10-15T05:00:00Z",
+    "discovered_at": "2026-10-16T00:00:00Z",
+    "raw_excerpt": "same canonical URL with utm tracking",
+    "simulation_tag": "utm-duplicate"
+  },
+  "expected": {
+    "decision": "DEDUPED",
+    "reason": "strip known tracking params and preserve meaningful params",
+    "is_idempotent_case": true,
+    "public_publish_allowed": false
+  },
+  "verification": {
+    "expected_no_secret_disclosure": true,
+    "expected_no_auto_publish": true,
+    "run_status": "NOT_EXECUTED_FIXTURE"
+  }
+}

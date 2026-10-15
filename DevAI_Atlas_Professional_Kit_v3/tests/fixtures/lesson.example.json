@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0",
+  "slug": "ai-vs-llm-and-agents",
+  "track_id": "T01",
+  "module_id": "T01-M01",
+  "title": "AI, LLM, chatbot, API và Coding Agent",
+  "level": "BEGINNER",
+  "objectives": [
+    "Phân biệt sản phẩm AI với endpoint model và công cụ agent",
+    "Thiết kế luồng tin có backend authorization"
+  ],
+  "prerequisites": [
+    "REST API",
+    "Node.js basics"
+  ],
+  "explanation": "AI là lĩnh vực rộng, ML học từ dữ liệu và LLM là mô hình tập trung vào biểu diễn/ngôn ngữ. Một ứng dụng chat có UX, model, policy và tools; một coding agent có thể thay đổi repository theo quyền được cấp. Chúng không thay thế quyết định nghiệp vụ và authorization ở backend.",
+  "realistic_example": "Hệ thống DevAI Atlas có job định kỳ đọc metadata chính thức, model tạo draft có dẫn nguồn, validator đối chiếu claim và người có quyền editor quyết định xuất bản. Claude Code chỉ hỗ trợ tạo source trong giai đoạn phát triển.",
+  "exercise": "Xếp vai trò phù hợp cho các việc: viết đặc tả, tạo source, fetch release tự động, duyệt tin high-impact và bảo vệ API endpoint. Giải thích tại sao.",
+  "worked_solution": "Chat/leader hỗ trợ đặc tả, coding agent tạo source và tests theo approval; scheduler cùng source adapter fetch release; backend model API chỉ đề xuất draft; editor duyệt high-impact; backend RBAC và RLS kiểm quyền. Không dùng prompt làm lớp bảo mật cuối.",
+  "quiz": [
+    {
+      "question": "Kiểm tra khái niệm 1: JSON chuẩn có bảo đảm fact đúng không?",
+      "answer": "Không",
+      "rationale": "Schema chỉ ràng buộc cấu trúc, nguồn phải được đối chiếu."
+    },
+    {
+      "question": "Kiểm tra khái niệm 2: JSON chuẩn có bảo đảm fact đúng không?",
+      "answer": "Không",
+      "rationale": "Schema chỉ ràng buộc cấu trúc, nguồn phải được đối chiếu."
+    },
+    {
+      "question": "Kiểm tra khái niệm 3: JSON chuẩn có bảo đảm fact đúng không?",
+      "answer": "Không",
+      "rationale": "Schema chỉ ràng buộc cấu trúc, nguồn phải được đối chiếu."
+    },
+    {
+      "question": "Kiểm tra khái niệm 4: JSON chuẩn có bảo đảm fact đúng không?",
+      "answer": "Không",
+      "rationale": "Schema chỉ ràng buộc cấu trúc, nguồn phải được đối chiếu."
+    },
+    {
+      "question": "Kiểm tra khái niệm 5: JSON chuẩn có bảo đảm fact đúng không?",
+      "answer": "Không",
+      "rationale": "Schema chỉ ràng buộc cấu trúc, nguồn phải được đối chiếu."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://code.claude.com/docs/en/overview",
+      "publisher": "Anthropic",
+      "checked_at": "2026-10-16T00:00:00Z"
+    }
+  ],
+  "status": "DRAFT",
+  "verified_at": null,
+  "editor_id": null
+}

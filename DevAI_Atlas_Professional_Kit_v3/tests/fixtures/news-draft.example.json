@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.0",
+  "source_id": "fake-test-provider",
+  "canonical_source_url": "https://example.org/demo-release",
+  "source_published_at": "2026-10-15T05:00:00Z",
+  "discovered_at": "2026-10-16T00:00:00Z",
+  "verified_at": null,
+  "category": "API/SDK",
+  "title_vi": "[DEMO] Thay đổi phiên bản API chưa xác minh",
+  "summary_vi": "Đây là dữ liệu giả lập dành cho unit test, không có chứng cứ ngoài môi trường thực.",
+  "what_changed": "unverified demo",
+  "developer_impact": "không được đưa lên website thật",
+  "action_items": [
+    "kiểm chứng nguồn"
+  ],
+  "claim_evidence": [],
+  "uncertainty": [
+    "Ví dụ không phải sự kiện thật"
+  ],
+  "confidence": "LOW",
+  "risk_level": "HIGH",
+  "review_required": true,
+  "status": "DRAFT",
+  "prompt_version": "3.0-demo"
+}

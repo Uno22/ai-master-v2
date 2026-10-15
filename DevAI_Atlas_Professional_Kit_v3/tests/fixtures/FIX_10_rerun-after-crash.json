@@ -1,0 +1,24 @@
+{
+  "id": "FIX-10",
+  "fixture": "SYNTHETIC_TEST_ONLY_NOT_REAL_NEWS",
+  "description": "job crashes after source_items upsert",
+  "input": {
+    "source_id": "fake-test-provider",
+    "source_url": "https://example.org/test/rerun-after-crash",
+    "source_published_at": "2026-10-15T05:00:00Z",
+    "discovered_at": "2026-10-16T00:00:00Z",
+    "raw_excerpt": "job crashes after source_items upsert",
+    "simulation_tag": "rerun-after-crash"
+  },
+  "expected": {
+    "decision": "IDEMPOTENT",
+    "reason": "unique key + state resume",
+    "is_idempotent_case": true,
+    "public_publish_allowed": false
+  },
+  "verification": {
+    "expected_no_secret_disclosure": true,
+    "expected_no_auto_publish": true,
+    "run_status": "NOT_EXECUTED_FIXTURE"
+  }
+}

@@ -1,0 +1,5 @@
+# IA / pages / key states
+
+Public: Home (hero, tracks, daily brief); Learn hub (search/filter by level, in-progress lessons); Track (syllabus with published vs upcoming distinction); Lesson (concept, real case, prompt, exercise, solution, quiz, sources, verified date); News (timeline, categories, filters, source/time); News detail (facts/change/impact/actions, evidence, correction history); Search (lesson/news approved only); About (mission/editorial transparency); Sources (provenance and license policy); Ask (P1 gated and rate-limited).
+
+Admin: login/signup; admin overview (pending, last job, cost); sources (enable/disable, compliance fields); review queue (claims, original links, risk, approve/reject requiring reason); runs (start/end, counts, source errors, retry); metrics (cost, precision, latency). States: loading/empty/error/suspended/needs verification/offline; never render fabricated success charts. Accessible keyboard/mobile UX; public areas anonymous, all admin routes authorized server-side.

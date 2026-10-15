@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://devai-atlas.example/schemas/news-draft-v3.json",
+  "title": "NewsDraft schema (contract sample)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source_id",
+    "canonical_source_url",
+    "source_published_at",
+    "discovered_at",
+    "verified_at",
+    "category",
+    "title_vi",
+    "summary_vi",
+    "what_changed",
+    "developer_impact",
+    "action_items",
+    "claim_evidence",
+    "uncertainty",
+    "confidence",
+    "risk_level",
+    "review_required",
+    "status",
+    "prompt_version"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "3.0"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "canonical_source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_published_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "discovered_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "category": {
+      "enum": [
+        "Models",
+        "Coding Agents",
+        "API/SDK",
+        "Research",
+        "Open Source",
+        "Security",
+        "Market"
+      ]
+    },
+    "title_vi": {
+      "type": "string",
+      "minLength": 8
+    },
+    "summary_vi": {
+      "type": "string",
+      "minLength": 30
+    },
+    "what_changed": {
+      "type": "string"
+    },
+    "developer_impact": {
+      "type": "string"
+    },
+    "action_items": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim_id",
+          "claim",
+          "source_url",
+          "support_type",
+          "source_item_id"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "support_type": {
+            "enum": [
+              "DIRECT",
+              "INFERRED",
+              "UNVERIFIED"
+            ]
+          },
+          "source_item_id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ]
+    },
+    "risk_level": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "review_required": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "IN_REVIEW",
+        "REJECTED",
+        "APPROVED",
+        "PUBLISHED",
+        "QUARANTINED"
+      ]
+    },
+    "prompt_version": {
+      "type": "string"
+    }
+  }
+}

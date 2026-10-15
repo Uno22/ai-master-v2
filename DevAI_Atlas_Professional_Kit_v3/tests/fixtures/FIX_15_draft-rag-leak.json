@@ -1,0 +1,24 @@
+{
+  "id": "FIX-15",
+  "fixture": "SYNTHETIC_TEST_ONLY_NOT_REAL_NEWS",
+  "description": "user asks about unpublished news",
+  "input": {
+    "source_id": "fake-test-provider",
+    "source_url": "https://example.org/test/draft-rag-leak",
+    "source_published_at": "2026-10-15T05:00:00Z",
+    "discovered_at": "2026-10-16T00:00:00Z",
+    "raw_excerpt": "user asks about unpublished news",
+    "simulation_tag": "draft-rag-leak"
+  },
+  "expected": {
+    "decision": "DENY",
+    "reason": "RAG retrieval approved only",
+    "is_idempotent_case": false,
+    "public_publish_allowed": false
+  },
+  "verification": {
+    "expected_no_secret_disclosure": true,
+    "expected_no_auto_publish": true,
+    "run_status": "NOT_EXECUTED_FIXTURE"
+  }
+}

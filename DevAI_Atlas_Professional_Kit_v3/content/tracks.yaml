@@ -1,0 +1,1389 @@
+version: '3.0'
+content_status: 18 tracks syllabus; six seed lessons with examples; NOT 144 published lessons
+tracks:
+- id: T01
+  title: AI Foundations
+  level: Beginner
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho AI Foundations
+  modules:
+  - id: T01-M01
+    title: AI vs ML vs GenAI
+    level: Beginner
+    objective: Giải thích được ai vs ml vs genai, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về ai vs ml vs genai; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M01
+    status: SYLLABUS_ONLY
+  - id: T01-M02
+    title: LLMs and tokenization
+    level: Beginner
+    objective: Giải thích được llms and tokenization, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về llms and tokenization; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M02
+    status: SYLLABUS_ONLY
+  - id: T01-M03
+    title: Attention and transformers conceptual
+    level: Beginner
+    objective: Giải thích được attention and transformers conceptual, nêu trade-off, ứng dụng vào DevAI Atlas hoặc
+      workflow leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về attention and transformers conceptual; kiểm tra kết quả bằng tài liệu
+      chính thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M03
+    status: SYLLABUS_ONLY
+  - id: T01-M04
+    title: Context windows and memory
+    level: Beginner
+    objective: Giải thích được context windows and memory, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về context windows and memory; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M04
+    status: SYLLABUS_ONLY
+  - id: T01-M05
+    title: Hallucinations and reliability
+    level: Beginner
+    objective: Giải thích được hallucinations and reliability, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về hallucinations and reliability; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M05
+    status: SYLLABUS_ONLY
+  - id: T01-M06
+    title: Inference and latency
+    level: Beginner
+    objective: Giải thích được inference and latency, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về inference and latency; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M06
+    status: SYLLABUS_ONLY
+  - id: T01-M07
+    title: Open vs closed models
+    level: Beginner
+    objective: Giải thích được open vs closed models, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về open vs closed models; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M07
+    status: SYLLABUS_ONLY
+  - id: T01-M08
+    title: Responsible AI basics
+    level: Beginner
+    objective: Giải thích được responsible ai basics, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về responsible ai basics; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T01-M08
+    status: SYLLABUS_ONLY
+- id: T02
+  title: Model Ecosystem & Benchmarking
+  level: Beginner-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Model Ecosystem & Benchmarking
+  modules:
+  - id: T02-M01
+    title: OpenAI and API surfaces
+    level: Beginner-Expert
+    objective: Giải thích được openai and api surfaces, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về openai and api surfaces; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M01
+    status: SYLLABUS_ONLY
+  - id: T02-M02
+    title: Anthropic Claude ecosystem
+    level: Beginner-Expert
+    objective: Giải thích được anthropic claude ecosystem, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về anthropic claude ecosystem; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M02
+    status: SYLLABUS_ONLY
+  - id: T02-M03
+    title: Google Gemini ecosystem
+    level: Beginner-Expert
+    objective: Giải thích được google gemini ecosystem, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về google gemini ecosystem; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M03
+    status: SYLLABUS_ONLY
+  - id: T02-M04
+    title: DeepSeek and open ecosystem
+    level: Beginner-Expert
+    objective: Giải thích được deepseek and open ecosystem, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về deepseek and open ecosystem; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M04
+    status: SYLLABUS_ONLY
+  - id: T02-M05
+    title: xAI and Grok APIs
+    level: Beginner-Expert
+    objective: Giải thích được xai and grok apis, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về xai and grok apis; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M05
+    status: SYLLABUS_ONLY
+  - id: T02-M06
+    title: GitHub Copilot and alternatives
+    level: Beginner-Expert
+    objective: Giải thích được github copilot and alternatives, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về github copilot and alternatives; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M06
+    status: SYLLABUS_ONLY
+  - id: T02-M07
+    title: Evaluating provider claims
+    level: Beginner-Expert
+    objective: Giải thích được evaluating provider claims, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về evaluating provider claims; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M07
+    status: SYLLABUS_ONLY
+  - id: T02-M08
+    title: Version, price and context changes
+    level: Beginner-Expert
+    objective: Giải thích được version, price and context changes, nêu trade-off, ứng dụng vào DevAI Atlas hoặc
+      workflow leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về version, price and context changes; kiểm tra kết quả bằng tài liệu
+      chính thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T02-M08
+    status: SYLLABUS_ONLY
+- id: T03
+  title: Prompt & Context Engineering
+  level: Beginner-Advanced
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Prompt & Context Engineering
+  modules:
+  - id: T03-M01
+    title: Instruction hierarchy
+    level: Beginner-Advanced
+    objective: Giải thích được instruction hierarchy, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về instruction hierarchy; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M01
+    status: SYLLABUS_ONLY
+  - id: T03-M02
+    title: Zero/few-shot prompting
+    level: Beginner-Advanced
+    objective: Giải thích được zero/few-shot prompting, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về zero/few-shot prompting; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M02
+    status: SYLLABUS_ONLY
+  - id: T03-M03
+    title: Examples and test cases
+    level: Beginner-Advanced
+    objective: Giải thích được examples and test cases, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về examples and test cases; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M03
+    status: SYLLABUS_ONLY
+  - id: T03-M04
+    title: Structured JSON output
+    level: Beginner-Advanced
+    objective: Giải thích được structured json output, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về structured json output; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M04
+    status: SYLLABUS_ONLY
+  - id: T03-M05
+    title: Context compression and retrieval
+    level: Beginner-Advanced
+    objective: Giải thích được context compression and retrieval, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về context compression and retrieval; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M05
+    status: SYLLABUS_ONLY
+  - id: T03-M06
+    title: Prompt versioning & evals
+    level: Beginner-Advanced
+    objective: Giải thích được prompt versioning & evals, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về prompt versioning & evals; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M06
+    status: SYLLABUS_ONLY
+  - id: T03-M07
+    title: Long-document analysis
+    level: Beginner-Advanced
+    objective: Giải thích được long-document analysis, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về long-document analysis; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M07
+    status: SYLLABUS_ONLY
+  - id: T03-M08
+    title: Safe prompt composition
+    level: Beginner-Advanced
+    objective: Giải thích được safe prompt composition, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về safe prompt composition; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T03-M08
+    status: SYLLABUS_ONLY
+- id: T04
+  title: AI Coding Mastery
+  level: Beginner-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho AI Coding Mastery
+  modules:
+  - id: T04-M01
+    title: Claude Code setup & permissions
+    level: Beginner-Expert
+    objective: Giải thích được claude code setup & permissions, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về claude code setup & permissions; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M01
+    status: SYLLABUS_ONLY
+  - id: T04-M02
+    title: Codebase exploration
+    level: Beginner-Expert
+    objective: Giải thích được codebase exploration, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về codebase exploration; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M02
+    status: SYLLABUS_ONLY
+  - id: T04-M03
+    title: Planning before editing
+    level: Beginner-Expert
+    objective: Giải thích được planning before editing, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về planning before editing; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M03
+    status: SYLLABUS_ONLY
+  - id: T04-M04
+    title: Test-driven agent workflows
+    level: Beginner-Expert
+    objective: Giải thích được test-driven agent workflows, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về test-driven agent workflows; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M04
+    status: SYLLABUS_ONLY
+  - id: T04-M05
+    title: Git, PR & review
+    level: Beginner-Expert
+    objective: Giải thích được git, pr & review, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về git, pr & review; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M05
+    status: SYLLABUS_ONLY
+  - id: T04-M06
+    title: Skills and custom subagents
+    level: Beginner-Expert
+    objective: Giải thích được skills and custom subagents, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về skills and custom subagents; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M06
+    status: SYLLABUS_ONLY
+  - id: T04-M07
+    title: Hooks and MCP tools
+    level: Beginner-Expert
+    objective: Giải thích được hooks and mcp tools, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về hooks and mcp tools; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M07
+    status: SYLLABUS_ONLY
+  - id: T04-M08
+    title: Legacy refactoring & migration
+    level: Beginner-Expert
+    objective: Giải thích được legacy refactoring & migration, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về legacy refactoring & migration; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T04-M08
+    status: SYLLABUS_ONLY
+- id: T05
+  title: LLM API Engineering
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho LLM API Engineering
+  modules:
+  - id: T05-M01
+    title: API authentication & quotas
+    level: Intermediate-Expert
+    objective: Giải thích được api authentication & quotas, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về api authentication & quotas; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M01
+    status: SYLLABUS_ONLY
+  - id: T05-M02
+    title: Generation and streaming
+    level: Intermediate-Expert
+    objective: Giải thích được generation and streaming, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về generation and streaming; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M02
+    status: SYLLABUS_ONLY
+  - id: T05-M03
+    title: Tool/function calling
+    level: Intermediate-Expert
+    objective: Giải thích được tool/function calling, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về tool/function calling; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M03
+    status: SYLLABUS_ONLY
+  - id: T05-M04
+    title: Output schemas and validation
+    level: Intermediate-Expert
+    objective: Giải thích được output schemas and validation, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về output schemas and validation; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M04
+    status: SYLLABUS_ONLY
+  - id: T05-M05
+    title: Retries, fallbacks and timeouts
+    level: Intermediate-Expert
+    objective: Giải thích được retries, fallbacks and timeouts, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về retries, fallbacks and timeouts; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M05
+    status: SYLLABUS_ONLY
+  - id: T05-M06
+    title: Model routing and caching
+    level: Intermediate-Expert
+    objective: Giải thích được model routing and caching, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về model routing and caching; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M06
+    status: SYLLABUS_ONLY
+  - id: T05-M07
+    title: Token cost accounting
+    level: Intermediate-Expert
+    objective: Giải thích được token cost accounting, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về token cost accounting; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M07
+    status: SYLLABUS_ONLY
+  - id: T05-M08
+    title: Integration contract tests
+    level: Intermediate-Expert
+    objective: Giải thích được integration contract tests, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về integration contract tests; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T05-M08
+    status: SYLLABUS_ONLY
+- id: T06
+  title: Agentic Systems & Workflows
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Agentic Systems & Workflows
+  modules:
+  - id: T06-M01
+    title: Deterministic vs agentic
+    level: Intermediate-Expert
+    objective: Giải thích được deterministic vs agentic, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về deterministic vs agentic; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M01
+    status: SYLLABUS_ONLY
+  - id: T06-M02
+    title: Planning & decomposition
+    level: Intermediate-Expert
+    objective: Giải thích được planning & decomposition, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về planning & decomposition; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M02
+    status: SYLLABUS_ONLY
+  - id: T06-M03
+    title: Tool dispatcher with approvals
+    level: Intermediate-Expert
+    objective: Giải thích được tool dispatcher with approvals, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về tool dispatcher with approvals; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M03
+    status: SYLLABUS_ONLY
+  - id: T06-M04
+    title: Single vs multi agent
+    level: Intermediate-Expert
+    objective: Giải thích được single vs multi agent, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về single vs multi agent; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M04
+    status: SYLLABUS_ONLY
+  - id: T06-M05
+    title: Durable orchestration
+    level: Intermediate-Expert
+    objective: Giải thích được durable orchestration, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về durable orchestration; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M05
+    status: SYLLABUS_ONLY
+  - id: T06-M06
+    title: Idempotency & replay
+    level: Intermediate-Expert
+    objective: Giải thích được idempotency & replay, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về idempotency & replay; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M06
+    status: SYLLABUS_ONLY
+  - id: T06-M07
+    title: Memory & checkpoints
+    level: Intermediate-Expert
+    objective: Giải thích được memory & checkpoints, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về memory & checkpoints; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M07
+    status: SYLLABUS_ONLY
+  - id: T06-M08
+    title: Human-in-the-loop recovery
+    level: Intermediate-Expert
+    objective: Giải thích được human-in-the-loop recovery, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về human-in-the-loop recovery; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T06-M08
+    status: SYLLABUS_ONLY
+- id: T07
+  title: MCP & Integrations
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho MCP & Integrations
+  modules:
+  - id: T07-M01
+    title: MCP transport and actors
+    level: Intermediate-Expert
+    objective: Giải thích được mcp transport and actors, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về mcp transport and actors; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M01
+    status: SYLLABUS_ONLY
+  - id: T07-M02
+    title: Tools vs resources vs prompts
+    level: Intermediate-Expert
+    objective: Giải thích được tools vs resources vs prompts, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về tools vs resources vs prompts; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M02
+    status: SYLLABUS_ONLY
+  - id: T07-M03
+    title: Trust boundaries
+    level: Intermediate-Expert
+    objective: Giải thích được trust boundaries, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về trust boundaries; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M03
+    status: SYLLABUS_ONLY
+  - id: T07-M04
+    title: Read-only GitHub connector
+    level: Intermediate-Expert
+    objective: Giải thích được read-only github connector, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về read-only github connector; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M04
+    status: SYLLABUS_ONLY
+  - id: T07-M05
+    title: Capability discovery
+    level: Intermediate-Expert
+    objective: Giải thích được capability discovery, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về capability discovery; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M05
+    status: SYLLABUS_ONLY
+  - id: T07-M06
+    title: MCP server security
+    level: Intermediate-Expert
+    objective: Giải thích được mcp server security, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về mcp server security; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M06
+    status: SYLLABUS_ONLY
+  - id: T07-M07
+    title: Observability and permissions
+    level: Intermediate-Expert
+    objective: Giải thích được observability and permissions, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về observability and permissions; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M07
+    status: SYLLABUS_ONLY
+  - id: T07-M08
+    title: Version compatibility
+    level: Intermediate-Expert
+    objective: Giải thích được version compatibility, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về version compatibility; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T07-M08
+    status: SYLLABUS_ONLY
+- id: T08
+  title: Retrieval, Embeddings & RAG
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Retrieval, Embeddings & RAG
+  modules:
+  - id: T08-M01
+    title: Embeddings semantics
+    level: Intermediate-Expert
+    objective: Giải thích được embeddings semantics, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về embeddings semantics; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M01
+    status: SYLLABUS_ONLY
+  - id: T08-M02
+    title: Chunking, parsing and metadata
+    level: Intermediate-Expert
+    objective: Giải thích được chunking, parsing and metadata, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về chunking, parsing and metadata; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M02
+    status: SYLLABUS_ONLY
+  - id: T08-M03
+    title: Postgres FTS
+    level: Intermediate-Expert
+    objective: Giải thích được postgres fts, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và kiểm
+      chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về postgres fts; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M03
+    status: SYLLABUS_ONLY
+  - id: T08-M04
+    title: Vector indexes/pgvector
+    level: Intermediate-Expert
+    objective: Giải thích được vector indexes/pgvector, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về vector indexes/pgvector; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M04
+    status: SYLLABUS_ONLY
+  - id: T08-M05
+    title: Hybrid search and rerank
+    level: Intermediate-Expert
+    objective: Giải thích được hybrid search and rerank, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về hybrid search and rerank; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M05
+    status: SYLLABUS_ONLY
+  - id: T08-M06
+    title: Citation and attribution
+    level: Intermediate-Expert
+    objective: Giải thích được citation and attribution, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về citation and attribution; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M06
+    status: SYLLABUS_ONLY
+  - id: T08-M07
+    title: Grounded answer generation
+    level: Intermediate-Expert
+    objective: Giải thích được grounded answer generation, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về grounded answer generation; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M07
+    status: SYLLABUS_ONLY
+  - id: T08-M08
+    title: RAG evaluation and versioning
+    level: Intermediate-Expert
+    objective: Giải thích được rag evaluation and versioning, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về rag evaluation and versioning; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T08-M08
+    status: SYLLABUS_ONLY
+- id: T09
+  title: Data Ingestion & Web Research
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Data Ingestion & Web Research
+  modules:
+  - id: T09-M01
+    title: RSS/Atom and release APIs
+    level: Intermediate-Expert
+    objective: Giải thích được rss/atom and release apis, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về rss/atom and release apis; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M01
+    status: SYLLABUS_ONLY
+  - id: T09-M02
+    title: Source policy and licensing
+    level: Intermediate-Expert
+    objective: Giải thích được source policy and licensing, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về source policy and licensing; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M02
+    status: SYLLABUS_ONLY
+  - id: T09-M03
+    title: Canonical URLs and normalization
+    level: Intermediate-Expert
+    objective: Giải thích được canonical urls and normalization, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về canonical urls and normalization; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M03
+    status: SYLLABUS_ONLY
+  - id: T09-M04
+    title: Exact/semantic duplicate grouping
+    level: Intermediate-Expert
+    objective: Giải thích được exact/semantic duplicate grouping, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về exact/semantic duplicate grouping; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M04
+    status: SYLLABUS_ONLY
+  - id: T09-M05
+    title: Cross-source verification
+    level: Intermediate-Expert
+    objective: Giải thích được cross-source verification, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về cross-source verification; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M05
+    status: SYLLABUS_ONLY
+  - id: T09-M06
+    title: Freshness and source timestamps
+    level: Intermediate-Expert
+    objective: Giải thích được freshness and source timestamps, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về freshness and source timestamps; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M06
+    status: SYLLABUS_ONLY
+  - id: T09-M07
+    title: Prompt injection & SSRF
+    level: Intermediate-Expert
+    objective: Giải thích được prompt injection & ssrf, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về prompt injection & ssrf; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M07
+    status: SYLLABUS_ONLY
+  - id: T09-M08
+    title: Research provenance/lineage
+    level: Intermediate-Expert
+    objective: Giải thích được research provenance/lineage, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về research provenance/lineage; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T09-M08
+    status: SYLLABUS_ONLY
+- id: T10
+  title: Structured AI Content Production
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Structured AI Content Production
+  modules:
+  - id: T10-M01
+    title: Lesson information architecture
+    level: Intermediate-Expert
+    objective: Giải thích được lesson information architecture, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về lesson information architecture; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M01
+    status: SYLLABUS_ONLY
+  - id: T10-M02
+    title: Source-backed tutorials
+    level: Intermediate-Expert
+    objective: Giải thích được source-backed tutorials, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về source-backed tutorials; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M02
+    status: SYLLABUS_ONLY
+  - id: T10-M03
+    title: News claim extraction
+    level: Intermediate-Expert
+    objective: Giải thích được news claim extraction, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về news claim extraction; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M03
+    status: SYLLABUS_ONLY
+  - id: T10-M04
+    title: Evidence graph & reviewer
+    level: Intermediate-Expert
+    objective: Giải thích được evidence graph & reviewer, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về evidence graph & reviewer; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M04
+    status: SYLLABUS_ONLY
+  - id: T10-M05
+    title: Editorial queues & approvals
+    level: Intermediate-Expert
+    objective: Giải thích được editorial queues & approvals, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về editorial queues & approvals; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M05
+    status: SYLLABUS_ONLY
+  - id: T10-M06
+    title: Content revisions
+    level: Intermediate-Expert
+    objective: Giải thích được content revisions, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về content revisions; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M06
+    status: SYLLABUS_ONLY
+  - id: T10-M07
+    title: SEO without spam
+    level: Intermediate-Expert
+    objective: Giải thích được seo without spam, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về seo without spam; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M07
+    status: SYLLABUS_ONLY
+  - id: T10-M08
+    title: Multilingual style quality
+    level: Intermediate-Expert
+    objective: Giải thích được multilingual style quality, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về multilingual style quality; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T10-M08
+    status: SYLLABUS_ONLY
+- id: T11
+  title: Multimodal & Document AI
+  level: Intermediate-Advanced
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Multimodal & Document AI
+  modules:
+  - id: T11-M01
+    title: Vision inputs and constraints
+    level: Intermediate-Advanced
+    objective: Giải thích được vision inputs and constraints, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về vision inputs and constraints; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M01
+    status: SYLLABUS_ONLY
+  - id: T11-M02
+    title: PDF and document extraction
+    level: Intermediate-Advanced
+    objective: Giải thích được pdf and document extraction, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về pdf and document extraction; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M02
+    status: SYLLABUS_ONLY
+  - id: T11-M03
+    title: OCR and structured extraction
+    level: Intermediate-Advanced
+    objective: Giải thích được ocr and structured extraction, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về ocr and structured extraction; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M03
+    status: SYLLABUS_ONLY
+  - id: T11-M04
+    title: Audio speech applications
+    level: Intermediate-Advanced
+    objective: Giải thích được audio speech applications, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về audio speech applications; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M04
+    status: SYLLABUS_ONLY
+  - id: T11-M05
+    title: Video and temporal context
+    level: Intermediate-Advanced
+    objective: Giải thích được video and temporal context, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về video and temporal context; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M05
+    status: SYLLABUS_ONLY
+  - id: T11-M06
+    title: File uploads security
+    level: Intermediate-Advanced
+    objective: Giải thích được file uploads security, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về file uploads security; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M06
+    status: SYLLABUS_ONLY
+  - id: T11-M07
+    title: Multimodal evaluation
+    level: Intermediate-Advanced
+    objective: Giải thích được multimodal evaluation, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về multimodal evaluation; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M07
+    status: SYLLABUS_ONLY
+  - id: T11-M08
+    title: Rights & consent
+    level: Intermediate-Advanced
+    objective: Giải thích được rights & consent, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về rights & consent; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T11-M08
+    status: SYLLABUS_ONLY
+- id: T12
+  title: Model Quality & Evals
+  level: Advanced-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Model Quality & Evals
+  modules:
+  - id: T12-M01
+    title: Golden datasets
+    level: Advanced-Expert
+    objective: Giải thích được golden datasets, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về golden datasets; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M01
+    status: SYLLABUS_ONLY
+  - id: T12-M02
+    title: Exact-match and task scoring
+    level: Advanced-Expert
+    objective: Giải thích được exact-match and task scoring, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về exact-match and task scoring; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M02
+    status: SYLLABUS_ONLY
+  - id: T12-M03
+    title: Faithfulness & citation scoring
+    level: Advanced-Expert
+    objective: Giải thích được faithfulness & citation scoring, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về faithfulness & citation scoring; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M03
+    status: SYLLABUS_ONLY
+  - id: T12-M04
+    title: Judge model calibration
+    level: Advanced-Expert
+    objective: Giải thích được judge model calibration, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về judge model calibration; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M04
+    status: SYLLABUS_ONLY
+  - id: T12-M05
+    title: Regression across versions
+    level: Advanced-Expert
+    objective: Giải thích được regression across versions, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về regression across versions; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M05
+    status: SYLLABUS_ONLY
+  - id: T12-M06
+    title: Adversarial testing
+    level: Advanced-Expert
+    objective: Giải thích được adversarial testing, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về adversarial testing; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M06
+    status: SYLLABUS_ONLY
+  - id: T12-M07
+    title: Human reviewer agreement
+    level: Advanced-Expert
+    objective: Giải thích được human reviewer agreement, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về human reviewer agreement; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M07
+    status: SYLLABUS_ONLY
+  - id: T12-M08
+    title: Deployment evaluation gates
+    level: Advanced-Expert
+    objective: Giải thích được deployment evaluation gates, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về deployment evaluation gates; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T12-M08
+    status: SYLLABUS_ONLY
+- id: T13
+  title: LLM Security & Governance
+  level: Advanced-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho LLM Security & Governance
+  modules:
+  - id: T13-M01
+    title: Prompt injection defense
+    level: Advanced-Expert
+    objective: Giải thích được prompt injection defense, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về prompt injection defense; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M01
+    status: SYLLABUS_ONLY
+  - id: T13-M02
+    title: PII/secret redaction
+    level: Advanced-Expert
+    objective: Giải thích được pii/secret redaction, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về pii/secret redaction; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M02
+    status: SYLLABUS_ONLY
+  - id: T13-M03
+    title: RBAC and RLS
+    level: Advanced-Expert
+    objective: Giải thích được rbac and rls, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và kiểm
+      chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về rbac and rls; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M03
+    status: SYLLABUS_ONLY
+  - id: T13-M04
+    title: SSRF & tool authorization
+    level: Advanced-Expert
+    objective: Giải thích được ssrf & tool authorization, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về ssrf & tool authorization; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M04
+    status: SYLLABUS_ONLY
+  - id: T13-M05
+    title: Supply-chain risks
+    level: Advanced-Expert
+    objective: Giải thích được supply-chain risks, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về supply-chain risks; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M05
+    status: SYLLABUS_ONLY
+  - id: T13-M06
+    title: Rate-limiting & abuse
+    level: Advanced-Expert
+    objective: Giải thích được rate-limiting & abuse, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về rate-limiting & abuse; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M06
+    status: SYLLABUS_ONLY
+  - id: T13-M07
+    title: Copyright, ToS & licensing
+    level: Advanced-Expert
+    objective: Giải thích được copyright, tos & licensing, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về copyright, tos & licensing; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M07
+    status: SYLLABUS_ONLY
+  - id: T13-M08
+    title: Audit, retention & deletion
+    level: Advanced-Expert
+    objective: Giải thích được audit, retention & deletion, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về audit, retention & deletion; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T13-M08
+    status: SYLLABUS_ONLY
+- id: T14
+  title: LLMOps & Reliability
+  level: Advanced-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho LLMOps & Reliability
+  modules:
+  - id: T14-M01
+    title: Provider monitoring
+    level: Advanced-Expert
+    objective: Giải thích được provider monitoring, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về provider monitoring; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M01
+    status: SYLLABUS_ONLY
+  - id: T14-M02
+    title: Tracing and logging
+    level: Advanced-Expert
+    objective: Giải thích được tracing and logging, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về tracing and logging; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M02
+    status: SYLLABUS_ONLY
+  - id: T14-M03
+    title: Latency and p95
+    level: Advanced-Expert
+    objective: Giải thích được latency and p95, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về latency and p95; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M03
+    status: SYLLABUS_ONLY
+  - id: T14-M04
+    title: Budget & token caps
+    level: Advanced-Expert
+    objective: Giải thích được budget & token caps, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về budget & token caps; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M04
+    status: SYLLABUS_ONLY
+  - id: T14-M05
+    title: Circuit breaker/fallback
+    level: Advanced-Expert
+    objective: Giải thích được circuit breaker/fallback, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về circuit breaker/fallback; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M05
+    status: SYLLABUS_ONLY
+  - id: T14-M06
+    title: Scheduled jobs & alerts
+    level: Advanced-Expert
+    objective: Giải thích được scheduled jobs & alerts, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về scheduled jobs & alerts; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M06
+    status: SYLLABUS_ONLY
+  - id: T14-M07
+    title: Incident management
+    level: Advanced-Expert
+    objective: Giải thích được incident management, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về incident management; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M07
+    status: SYLLABUS_ONLY
+  - id: T14-M08
+    title: Backup/restore/rollback
+    level: Advanced-Expert
+    objective: Giải thích được backup/restore/rollback, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về backup/restore/rollback; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T14-M08
+    status: SYLLABUS_ONLY
+- id: T15
+  title: AI Product Engineering
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho AI Product Engineering
+  modules:
+  - id: T15-M01
+    title: PRD and MVP scoping
+    level: Intermediate-Expert
+    objective: Giải thích được prd and mvp scoping, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về prd and mvp scoping; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M01
+    status: SYLLABUS_ONLY
+  - id: T15-M02
+    title: AI-first UX and errors
+    level: Intermediate-Expert
+    objective: Giải thích được ai-first ux and errors, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về ai-first ux and errors; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M02
+    status: SYLLABUS_ONLY
+  - id: T15-M03
+    title: Human fallback paths
+    level: Intermediate-Expert
+    objective: Giải thích được human fallback paths, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về human fallback paths; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M03
+    status: SYLLABUS_ONLY
+  - id: T15-M04
+    title: Cost and usage productization
+    level: Intermediate-Expert
+    objective: Giải thích được cost and usage productization, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về cost and usage productization; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M04
+    status: SYLLABUS_ONLY
+  - id: T15-M05
+    title: Access and subscriptions concept
+    level: Intermediate-Expert
+    objective: Giải thích được access and subscriptions concept, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về access and subscriptions concept; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M05
+    status: SYLLABUS_ONLY
+  - id: T15-M06
+    title: Accessibility & performance
+    level: Intermediate-Expert
+    objective: Giải thích được accessibility & performance, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về accessibility & performance; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M06
+    status: SYLLABUS_ONLY
+  - id: T15-M07
+    title: SEO and distribution
+    level: Intermediate-Expert
+    objective: Giải thích được seo and distribution, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về seo and distribution; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M07
+    status: SYLLABUS_ONLY
+  - id: T15-M08
+    title: User feedback and iteration
+    level: Intermediate-Expert
+    objective: Giải thích được user feedback and iteration, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về user feedback and iteration; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T15-M08
+    status: SYLLABUS_ONLY
+- id: T16
+  title: Technical Leadership with AI
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Technical Leadership with AI
+  modules:
+  - id: T16-M01
+    title: Requirement refinement
+    level: Intermediate-Expert
+    objective: Giải thích được requirement refinement, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về requirement refinement; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M01
+    status: SYLLABUS_ONLY
+  - id: T16-M02
+    title: Sprint and backlog planning
+    level: Intermediate-Expert
+    objective: Giải thích được sprint and backlog planning, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về sprint and backlog planning; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M02
+    status: SYLLABUS_ONLY
+  - id: T16-M03
+    title: PR reviews and CI
+    level: Intermediate-Expert
+    objective: Giải thích được pr reviews and ci, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về pr reviews and ci; kiểm tra kết quả bằng tài liệu chính thức và ít
+      nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M03
+    status: SYLLABUS_ONLY
+  - id: T16-M04
+    title: Architecture decisions
+    level: Intermediate-Expert
+    objective: Giải thích được architecture decisions, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về architecture decisions; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M04
+    status: SYLLABUS_ONLY
+  - id: T16-M05
+    title: Incident investigation
+    level: Intermediate-Expert
+    objective: Giải thích được incident investigation, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về incident investigation; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M05
+    status: SYLLABUS_ONLY
+  - id: T16-M06
+    title: Risk and change management
+    level: Intermediate-Expert
+    objective: Giải thích được risk and change management, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về risk and change management; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M06
+    status: SYLLABUS_ONLY
+  - id: T16-M07
+    title: Mentoring and knowledge sharing
+    level: Intermediate-Expert
+    objective: Giải thích được mentoring and knowledge sharing, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về mentoring and knowledge sharing; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M07
+    status: SYLLABUS_ONLY
+  - id: T16-M08
+    title: Vendor procurement and security
+    level: Intermediate-Expert
+    objective: Giải thích được vendor procurement and security, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về vendor procurement and security; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T16-M08
+    status: SYLLABUS_ONLY
+- id: T17
+  title: Open Models & Local Inference
+  level: Intermediate-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Open Models & Local Inference
+  modules:
+  - id: T17-M01
+    title: Open-weight overview
+    level: Intermediate-Expert
+    objective: Giải thích được open-weight overview, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về open-weight overview; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M01
+    status: SYLLABUS_ONLY
+  - id: T17-M02
+    title: Licenses and model cards
+    level: Intermediate-Expert
+    objective: Giải thích được licenses and model cards, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về licenses and model cards; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M02
+    status: SYLLABUS_ONLY
+  - id: T17-M03
+    title: Local vs hosted inference
+    level: Intermediate-Expert
+    objective: Giải thích được local vs hosted inference, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về local vs hosted inference; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M03
+    status: SYLLABUS_ONLY
+  - id: T17-M04
+    title: Quantization concept (not training)
+    level: Intermediate-Expert
+    objective: Giải thích được quantization concept (not training), nêu trade-off, ứng dụng vào DevAI Atlas hoặc
+      workflow leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về quantization concept (not training); kiểm tra kết quả bằng tài liệu
+      chính thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M04
+    status: SYLLABUS_ONLY
+  - id: T17-M05
+    title: Hardware sizing assumptions
+    level: Intermediate-Expert
+    objective: Giải thích được hardware sizing assumptions, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về hardware sizing assumptions; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M05
+    status: SYLLABUS_ONLY
+  - id: T17-M06
+    title: Privacy and data locality
+    level: Intermediate-Expert
+    objective: Giải thích được privacy and data locality, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về privacy and data locality; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M06
+    status: SYLLABUS_ONLY
+  - id: T17-M07
+    title: Local benchmarks and evals
+    level: Intermediate-Expert
+    objective: Giải thích được local benchmarks and evals, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về local benchmarks and evals; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M07
+    status: SYLLABUS_ONLY
+  - id: T17-M08
+    title: Deployment tradeoffs
+    level: Intermediate-Expert
+    objective: Giải thích được deployment tradeoffs, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về deployment tradeoffs; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T17-M08
+    status: SYLLABUS_ONLY
+- id: T18
+  title: Advanced System Design
+  level: Advanced-Expert
+  summary: Từ nguyên lý, kỹ thuật đến vận hành cho Advanced System Design
+  modules:
+  - id: T18-M01
+    title: Async queue and state machine
+    level: Advanced-Expert
+    objective: Giải thích được async queue and state machine, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về async queue and state machine; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M01
+    status: SYLLABUS_ONLY
+  - id: T18-M02
+    title: Eventual consistency
+    level: Advanced-Expert
+    objective: Giải thích được eventual consistency, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về eventual consistency; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M02
+    status: SYLLABUS_ONLY
+  - id: T18-M03
+    title: Horizontal scale & CDN
+    level: Advanced-Expert
+    objective: Giải thích được horizontal scale & cdn, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về horizontal scale & cdn; kiểm tra kết quả bằng tài liệu chính thức và
+      ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M03
+    status: SYLLABUS_ONLY
+  - id: T18-M04
+    title: DB indexing and caching
+    level: Advanced-Expert
+    objective: Giải thích được db indexing and caching, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về db indexing and caching; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M04
+    status: SYLLABUS_ONLY
+  - id: T18-M05
+    title: Multi-region DR concept
+    level: Advanced-Expert
+    objective: Giải thích được multi-region dr concept, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về multi-region dr concept; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M05
+    status: SYLLABUS_ONLY
+  - id: T18-M06
+    title: Tenant isolation
+    level: Advanced-Expert
+    objective: Giải thích được tenant isolation, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader và
+      kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về tenant isolation; kiểm tra kết quả bằng tài liệu chính thức và ít nhất
+      2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M06
+    status: SYLLABUS_ONLY
+  - id: T18-M07
+    title: Cost per request at load
+    level: Advanced-Expert
+    objective: Giải thích được cost per request at load, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow leader
+      và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về cost per request at load; kiểm tra kết quả bằng tài liệu chính thức
+      và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M07
+    status: SYLLABUS_ONLY
+  - id: T18-M08
+    title: SLOs and capacity verification
+    level: Advanced-Expert
+    objective: Giải thích được slos and capacity verification, nêu trade-off, ứng dụng vào DevAI Atlas hoặc workflow
+      leader và kiểm chứng qua một case thực tế.
+    practice: Giao AI thực hiện một ví dụ về slos and capacity verification; kiểm tra kết quả bằng tài liệu chính
+      thức và ít nhất 2 tình huống pass/fail.
+    deliverable: Note + prompt + evidence cho T18-M08
+    status: SYLLABUS_ONLY

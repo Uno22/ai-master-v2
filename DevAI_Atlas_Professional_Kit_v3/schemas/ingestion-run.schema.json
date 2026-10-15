@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daily ingestion run",
+  "type": "object",
+  "required": [
+    "run_id",
+    "run_key",
+    "date",
+    "status",
+    "source_count",
+    "fetched_count",
+    "new_count",
+    "duplicate_count",
+    "draft_count",
+    "published_count",
+    "error_count",
+    "estimated_cost_usd",
+    "started_at",
+    "finished_at"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "run_key": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "SUCCESS",
+        "PARTIAL",
+        "FAILED",
+        "RUNNING"
+      ]
+    },
+    "source_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "fetched_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "new_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "duplicate_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "draft_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "published_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "error_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "estimated_cost_usd": {
+      "type": "number",
+      "minimum": 0
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "finished_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  }
+}

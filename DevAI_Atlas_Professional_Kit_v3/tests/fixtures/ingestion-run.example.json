@@ -1,0 +1,16 @@
+{
+  "run_id": "synthetic-run",
+  "run_key": "2026-10-16:daily",
+  "date": "2026-10-16",
+  "status": "PARTIAL",
+  "source_count": 3,
+  "fetched_count": 10,
+  "new_count": 6,
+  "duplicate_count": 4,
+  "draft_count": 2,
+  "published_count": 0,
+  "error_count": 1,
+  "estimated_cost_usd": 0.2,
+  "started_at": "2026-10-16T00:00:00Z",
+  "finished_at": "2026-10-16T00:05:00Z"
+}

@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://devai-atlas.example/schemas/lesson-v3.json",
+  "title": "DevAI Atlas Lesson",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "slug",
+    "track_id",
+    "module_id",
+    "title",
+    "level",
+    "objectives",
+    "prerequisites",
+    "explanation",
+    "realistic_example",
+    "exercise",
+    "worked_solution",
+    "quiz",
+    "sources",
+    "status",
+    "verified_at"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "3.0"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "track_id": {
+      "type": "string",
+      "pattern": "^T[0-9]{2}$"
+    },
+    "module_id": {
+      "type": "string",
+      "pattern": "^T[0-9]{2}-M[0-9]{2}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 8
+    },
+    "level": {
+      "enum": [
+        "BEGINNER",
+        "INTERMEDIATE",
+        "ADVANCED",
+        "EXPERT"
+      ]
+    },
+    "objectives": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string",
+        "minLength": 8
+      }
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 100
+    },
+    "realistic_example": {
+      "type": "string",
+      "minLength": 80
+    },
+    "exercise": {
+      "type": "string",
+      "minLength": 50
+    },
+    "worked_solution": {
+      "type": "string",
+      "minLength": 50
+    },
+    "quiz": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer",
+          "rationale"
+        ],
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "rationale": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "publisher",
+          "checked_at"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "REVIEWED",
+        "PUBLISHED",
+        "RETIRED"
+      ]
+    },
+    "verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "editor_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
